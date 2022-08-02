@@ -1,5 +1,6 @@
 Testing edit
 Edit numbah 2
+Test 3
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
 class Admin extends CI_Controller {
