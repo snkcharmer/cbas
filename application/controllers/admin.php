@@ -805,4 +805,9 @@ class Admin extends CI_Controller {
 		$data["res"] = $this->assessment_model->show_results($row["trainingid"],0,$row["submodid"]);
 		$this->load->view('Backend/ResultShow',$data);
 	}
+	
+	public function editme()
+	{
+		
+	}
 }
